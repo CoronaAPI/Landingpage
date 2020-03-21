@@ -1,4 +1,4 @@
-![alt text](test001.png)
+![alt text](https://github.com/CoronaAPI/Landingpage/tree/master/docs/test001.png)
 
 # COVID-19-API #
 
