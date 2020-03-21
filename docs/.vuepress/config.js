@@ -5,7 +5,9 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'API', link: 'https://corona.ndo.dev/api-docs/swagger-ui' }
+      { text: 'Examples', link: '/examples/' },
+      { text: 'API', link: 'https://corona.ndo.dev/api-docs/swagger-ui' },
+      { text: 'GitHub', link: 'https://github.com/CoronaAPI' }
     ]
   }
 }
