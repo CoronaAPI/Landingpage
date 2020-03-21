@@ -1,7 +1,11 @@
 <template>
   <div>
-    <NavBar />
-    <nuxt />
+    <header>
+      <NavBar />
+    </header>
+    <main class="container">
+      <nuxt />
+    </main>
   </div>
 </template>
 
@@ -16,6 +20,15 @@ export default {
 </script>
 
 <style>
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
