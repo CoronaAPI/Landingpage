@@ -1,5 +1,4 @@
 ![alt text](test001.png)
-(https://github.com/n48.png "Logo Title")
 
 # COVID-19-API #
 
@@ -28,7 +27,7 @@ As of now, the API can give you the following case outputs:
 ## How You Can Contribute
 You already have your own scraper and want to share it? Yay! We are open source and we'd be happy to also include your datasets. **//Hier den Verweis auf github?**
 
-You would like to write your own scraper but don't know how? Look here **//Link**
+You would like to write your own scraper but don't know how? [Find out!](https://github.com/CoronaAPI/coronadatascraper) 
 
 **// two buttons - guided page journey**
 
