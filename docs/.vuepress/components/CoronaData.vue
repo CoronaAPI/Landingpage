@@ -7,28 +7,30 @@
         Click here to get COVID19 data
     </button>
     <p v-if="isFetching">fetching data... </P>
-    <div v-else>
-      <table v-if="coronaData.length > 0">
-        <tr>
-          <th>country</th>
-          <th>active</th>
-          <th>recovered</th>
-          <th>deaths</th>
-          <th>source</th>
-          <th>rating</th>
-        </tr>
-        <tr
-          v-for="(data, index) in coronaData"
-          :key="data.index"
-        >
-          <td>{{ data.country }}</td>
-          <td>{{ data.active }}</td>
-          <td>{{ data.recovered }}</td>
-          <td>{{ data.deaths }}</td>
-          <td>{{ data.url }}</td>
-          <td>{{ data.rating }}</td>
-        </tr>
-      </table>
+    <div v-else style="margin: 5px">
+      <div v-if="coronaData.length > 0" style="height: 300px; overflow: auto;">
+        <table>
+          <tr>
+            <th>country</th>
+            <th>active</th>
+            <th>recovered</th>
+            <th>deaths</th>
+            <th>rating</th>
+            <th>source</th>
+          </tr>
+          <tr
+            v-for="(data, index) in coronaData"
+            :key="data.index"
+          >
+            <td>{{ data.country }}</td>
+            <td>{{ data.active }}</td>
+            <td>{{ data.recovered }}</td>
+            <td>{{ data.deaths }}</td>
+            <td>{{ data.rating }}</td>
+            <td>{{ data.url }}</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
 </template>
