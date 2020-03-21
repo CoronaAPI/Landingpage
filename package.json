@@ -9,9 +9,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "leaflet": "^1.6.0",
-    "vue2-leaflet": "^2.5.2"
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "vuepress": "^1.4.0"

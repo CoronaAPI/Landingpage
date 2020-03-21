@@ -2,4 +2,4 @@
 Ich  nutze folgenden link um die daten zu bekommen:
 `https://corona.ndo.dev/`
 
-<Map />
+<corona-data />
