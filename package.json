@@ -5,35 +5,11 @@
   "author": "Martin Lux",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "test": "jest"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.27",
-    "@fortawesome/free-brands-svg-icons": "^5.12.1",
-    "@fortawesome/free-solid-svg-icons": "^5.12.1",
-    "@fortawesome/vue-fontawesome": "^0.1.9",
-    "@nuxtjs/axios": "^5.3.6",
-    "nuxt": "^2.0.0",
-    "nuxt-fontawesome": "^0.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0",
-    "@nuxtjs/eslint-config": "^2.0.0",
-    "@nuxtjs/eslint-module": "^1.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.1.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^1.19.1",
-    "@vue/test-utils": "^1.0.0-beta.27",
-    "babel-jest": "^24.1.0",
-    "jest": "^24.1.0",
-    "vue-jest": "^4.0.0-0"
+    "vuepress": "^1.4.0"
   }
 }
