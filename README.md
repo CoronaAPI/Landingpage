@@ -1,6 +1,8 @@
 # Corona-API-Landingpage
 
-> The CoronaAPI that scales :-) Here you can find all information to consume or contribute data of the COVID-19 virus.
+> The CoronaAPI that scales :-) 
+
+> Here you can find all information to consume or contribute data of COVID-19 and SARS-CoV-2.
 
 ```bash
 yarn add vuepress -D
