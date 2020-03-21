@@ -18,6 +18,7 @@
           target="_blank"
           class="button--grey"
         >
+          <fa :icon="faGithub" />
           GitHub
         </a>
       </div>
@@ -26,11 +27,17 @@
 </template>
 
 <script>
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
     Logo
+  },
+  computed: {
+    faGithub() {
+      return faGithub
+    }
   }
 }
 </script>
