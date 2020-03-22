@@ -73,7 +73,7 @@ export default {
 
 .data-btn:hover {
   cursor: pointer;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.25);
-  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
 }
 </style>
