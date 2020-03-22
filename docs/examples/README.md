@@ -81,3 +81,13 @@ export default {
 </script>
 ```
 :::
+
+## Build your own dashboard in minutes
+
+Use open source frameworks and the CoronaAPI to create your own dashboard. For example, you could use the amazing [NuxtJS](https://nuxtjs.org/) framework to quickly implement the dashboard.
+
+The [CoronaAPI-Dashboard](https://corona-api-dashboard.netlify.com/) uses the CoronaAPI and is an example of what you can do with easy to fetch data via REST. See the implementation at [GitHub](https://github.com/CoronaAPI/c-map)
+
+<a href="https://corona-api-dashboard.netlify.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  <img src="../assets/dashboard.png" alt="dashbord">
+</a>
