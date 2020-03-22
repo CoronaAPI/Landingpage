@@ -1,5 +1,4 @@
 <div style="text-align:center">
-  <h1>CoronaAPI</h1>
   <img src="./assets/logo.svg" alt="logo" style="max-width: 350px">
 </div>
 
