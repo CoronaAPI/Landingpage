@@ -1,7 +1,24 @@
 <div style="text-align:center">
-  <img src="./assets/Ringe.svg" alt="logo">
   <h1>CoronaAPI</h1>
-  <p style="font-size: 1.3em;">The API that scales ;-)</p>
+  <img src="./assets/Ringe.svg" alt="logo">
+</div>
+
+<div style="display:flex; margin-top:125px; margin-bottom:50px; flex-wrap: wrap; justify-content: space-between;">
+  <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
+    <img src="./assets/easy.svg" alt="logo" height="125">
+    <p style="font-size: 1.3em;">Easy to use</p>
+    <div style="width:150px; text-align: center;">beschreibung warum einfach</div>
+  </div>
+  <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
+    <img src="./assets/scalable.svg" alt="logo" height="125">
+    <p style="font-size: 1.3em;">It scales</p>
+    <div style="width:150px; text-align: center;">beschreibung warum gute skalierung</div>
+  </div>
+  <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
+    <img src="./assets/open_source.svg" alt="logo" height="125">
+    <p style="font-size: 1.3em;">Open Source</p>
+    <div style="width:150px; text-align: center;">beschreibung warum open source</div>
+  </div>
 </div>
 
 ## Our Aim 
