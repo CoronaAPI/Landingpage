@@ -7,7 +7,7 @@
   <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/easy.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">Easy To Use</p>
-    <div style="width:150px; text-align: center;">Get the data via your own <a href=“https://vuejs.org“>Vue</a>-component or copy it directly from your browser.  </div>
+    <div style="width:150px; text-align: center;"> Grab your favourite tools and consume our well defined <a href=“https://corona.ndo.dev/api-docs/swagger-ui/“>API</a>. </div>
   </div>
   <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/scalable.svg" alt="logo" height="125">
