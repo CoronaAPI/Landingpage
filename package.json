@@ -9,9 +9,13 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "@vuepress/plugin-register-components": "^1.4.0",
+    "axios": "^0.19.2",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-code-switcher": "^1.0.3"
   },
   "devDependencies": {
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.4.0",
+    "vuepress-plugin-element-tabs": "^0.2.8"
   }
 }

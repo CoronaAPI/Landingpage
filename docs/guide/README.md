@@ -6,7 +6,8 @@ Welcome to our getting started guides. There are two primary ways we envision pe
 
 2. You are a healthcare worker / government employee / anyone else who may have other (accurate) COVID-19 Data you would like to add to
 
-::: details I want to consume data
+:::: tabs stretch
+::: tab I want to consume data
 
 To get started consuming our data you can checkout our Swagger Docs for the endpoints here: [corona.ndo.dev/api-docs](https://corona.ndo.dev/api-docs/swagger-ui)
 
@@ -23,7 +24,7 @@ fetch('https://corona.ndo.dev/api/daily)
 
 :::
 
-::: details I want to add a new data source
+::: tab I want to add a new data source
 
 To add a new datasource, you can add a new scraper to the [@lazd/coronadatascraper](https://github.com/lazd/coronadatascraper) repo.
 
@@ -34,3 +35,4 @@ To add a new scraper:
 { Add getting started on new scraper }
 
 :::
+::::

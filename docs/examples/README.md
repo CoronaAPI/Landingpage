@@ -14,7 +14,8 @@ To implement this you can build a small [Vue](https://vuejs.org/) component. The
 
 But it's up to you. Just choose your favorite tools and get the data via REST. If you click [here](https://corona.ndo.dev/api/daily), you will see the data in your browser. You can copy the data and use tools to parse it into the format you need (e.g. [json to csv](https://konklone.io/json/)).
 
-::: details Click me to view the code of the Vue component
+<CodeSwitcher :languages="{vue:'Vue',react:'React'}">
+<template v-slot:vue>
 
 ```js
 <template>
@@ -81,12 +82,12 @@ export default {
 </script>
 ```
 
-:::
-
-::: details Click me to view the code of the React component
+</template>
+<template v-slot:react>
 
 ```js
 import React from "react";
+import ReactDOM from "react-dom";
 
 const App = () => {
   const [data, setData] = React.useState({});
@@ -112,7 +113,8 @@ const element = <App />;
 ReactDOM.render(element, document.getElementById("root"));
 ```
 
-:::
+</template>
+</CodeSwitcher>
 
 ## Build your own dashboard in minutes
 
