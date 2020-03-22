@@ -100,9 +100,10 @@ const App = () => {
 
   return (
     <ul>
-      {data.forEach(entry => {
-        return <li> {entry} </li>;
-      })}
+      {data &&
+        data.forEach(entry => {
+          return <li> {entry} </li>;
+        })}
     </ul>
   );
 };
