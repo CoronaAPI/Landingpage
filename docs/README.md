@@ -7,17 +7,17 @@
   <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/easy.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">Easy To Use</p>
-    <div style="width:150px; text-align: center;"> Grab your favourite tools and consume our well defined <a href=“https://corona.ndo.dev/api-docs/swagger-ui/“>API</a>. </div>
+    <div style="width:200px; text-align: center;"> Grab your favourite tools and consume our well defined <a href=“https://corona.ndo.dev/api-docs/swagger-ui/“ target="_blank" rel="noopener noreferrer" class="nav-link external">API</a>. </div>
   </div>
   <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/scalable.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">It scales</p>
-    <div style="width:150px; text-align: center;">The API is based on data collected via scapers. The integration of more scrapers will amplify the power of the API. </div>
+    <div style="width:200px; text-align: center;">The API is based on data collected via scapers. The integration of more scrapers will amplify the power of the API. </div>
   </div>
   <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/open_source.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">Open Source</p>
-    <div style="width:150px; text-align: center;"> Both, the scraper collection and the API are open source and everyone is welcome to contribute. </div>
+    <div style="width:200px; text-align: center;"> Both, the scraper collection and the API are open source and everyone is welcome to contribute. </div>
   </div>
 </div>
 
@@ -33,11 +33,16 @@ As of now, the API can give you the following case outputs:
 - source name and link
 - timepoints
 
-Your best bet is to look at out Swagger documentation to get more information on to how to use it.
+Your best bet is to look at out [Swagger documentation](https://corona.ndo.dev/api-docs/swagger-ui/) to get more information on to how to use it.
 
 
 ## How You Can Contribute
 You already have your own scraper and want to share it? Yay! We are open source and we'd be happy to also include your datasets. It would be great if we team up to extend the API to more detailed data on regional occurrences in cities or rural municipalities for example.
 
-You would like to participate and write your own scraper but don't know how? [Find out!](https://github.com/CoronaAPI/coronadatascraper) 
+You would like to participate and write your own scraper but don't know how? [Find out!](https://github.com/lazd/coronadatascraper/#contributing)
 
+### Developed during WIRVSVIRUS Hackathon
+
+<a href="https://wirvsvirushackathon.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  <img src="./assets/Logo_Projekt_02.png" alt="logo hackathon">
+</a>
