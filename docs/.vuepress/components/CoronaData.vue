@@ -1,12 +1,9 @@
 <template>
   <div>
-    <button
-      style="padding: 5px"
-      v-on:click="fetchCoronaData"
-    >
-        Click here to get COVID19 data
+    <button class="data-btn" v-on:click="fetchCoronaData">
+      Get Data
     </button>
-    <p v-if="isFetching">fetching data... </P>
+    <p v-if="isFetching">fetching data...</p>
     <div v-else style="margin: 5px">
       <div v-if="coronaData.length > 0" style="height: 300px; overflow: auto;">
         <table>
@@ -18,10 +15,7 @@
             <th>rating</th>
             <th>source</th>
           </tr>
-          <tr
-            v-for="(data, index) in coronaData"
-            :key="data.index"
-          >
+          <tr v-for="(data, index) in coronaData" :key="data.index">
             <td>{{ data.country }}</td>
             <td>{{ data.active }}</td>
             <td>{{ data.recovered }}</td>
@@ -36,10 +30,10 @@
 </template>
 
 <script>
-const axios = require("axios")
+const axios = require("axios");
 
 export default {
-  name:"corona-data",
+  name: "corona-data",
   data() {
     return {
       coronaData: [],
@@ -49,18 +43,37 @@ export default {
   },
   methods: {
     fetchCoronaData() {
-      this.isFetching = true
+      this.isFetching = true;
       return this.fetch
         .get("https://corona.ndo.dev/api/daily")
         .then(response => {
-          this.$data.coronaData = response.data
-          this.isFetching = false
+          this.$data.coronaData = response.data;
+          this.isFetching = false;
         })
         .catch(error => {
-          this.isFetching = false
-          console.log(error)
-        })
+          this.isFetching = false;
+          console.log(error);
+        });
     }
   }
 };
 </script>
+
+<style>
+.data-btn {
+  border: 2px solid #e2bc18;
+  border-radius: 10px;
+  background: transparent;
+  color: #e2bc18;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 10px;
+  transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.data-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+</style>
