@@ -7,14 +7,35 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
       { text: "Examples", link: "/examples/" },
-      { text: "API", link: "https://corona.ndo.dev/api-docs/swagger-ui" },
-      { text: "Data Scraper", link: "https://coronadatascraper.com/" },
-      { text: "GitHub", link: "https://github.com/CoronaAPI" }
-    ]
+      {
+        text: "API",
+        link: "https://corona.ndo.dev/api-docs/swagger-ui",
+        target: "_blank"
+      },
+      {
+        text: "Data Scraper",
+        link: "https://coronadatascraper.com/",
+        target: "_blank"
+      }
+    ],
+    searchPlaceholder: "Search...",
+    repo: "CoronaAPI",
+    repoLabel: "Github",
+    smoothScroll: true,
+    editLinks: true,
+    editLinkText: "Help us improve this page!"
   },
   plugins: [
     "vuepress-plugin-element-tabs",
     "code-switcher",
-    ["vuepress-plugin-code-copy", { color: "#ccc837" }]
+    ["vuepress-plugin-code-copy", { color: "#ccc837" }],
+    [
+      "@vuepress/last-updated",
+      {
+        dateOptions: {
+          hour12: false
+        }
+      }
+    ]
   ]
 };
