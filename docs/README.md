@@ -41,7 +41,7 @@ You already have your own scraper and want to share it? Yay! We are open source 
 
 You would like to participate and write your own scraper but don't know how? [Find out!](https://github.com/lazd/coronadatascraper/#contributing)
 
-### Developed during WIRVSVIRUS Hackathon
+### Developed during #WirvsVirus Hackathon
 
 <a href="https://wirvsvirushackathon.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
   <img src="./assets/Logo_Projekt_02.png" alt="logo hackathon">
