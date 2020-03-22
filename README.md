@@ -1,3 +1,5 @@
+<img src="https://imgur.com/BYL9tJl.png" width="300px" align="right" alt="wirvsvirus logo" />
+
 # 🦠 CoronaAPI Landingpage
 
 #### Easy to use CoronaAPI that scales!
