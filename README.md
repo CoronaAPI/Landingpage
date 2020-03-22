@@ -1,6 +1,6 @@
 # 🦠 CoronaAPI Landingpage
 
-> Easy to use CoronaAPI that scales - Homepage
+#### Easy to use CoronaAPI that scales!
 
 > Here you can find all information to consume or contribute data of COVID-19 / SARS-CoV-2.
 
