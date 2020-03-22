@@ -41,8 +41,6 @@ Your best bet is to look at our [Swagger documentation](https://corona.ndo.dev/a
 
 You already have your own scraper and want to share it? Yay! We are open source and we’d be happy to include your datasets. It would be great if we team up to extend the API to more detailed data on regional occurrences in cities or rural municipalities for example.
 
-If you would like to submit a new datasource, please take a look at our [guide page](/guide) for more information on how to contribute back to the [@lazd/coronadatascraper](https://github.com/lazd/coronadatascraper) project where we source our data from as well!
-
 You would like to participate and write your own scraper but don’t know how? [Find out!](https://github.com/lazd/coronadatascraper/#contributing)
 
 ### Developed during #WirvsVirus Hackathon
