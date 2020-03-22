@@ -1,14 +1,12 @@
-![alt text](https://github.com/CoronaAPI/Landingpage/tree/master/docs/test001.png)
-
-# COVID-19-API #
-
+<div style="text-align:center">
+  <img src="./assets/Ringe.svg" alt="logo">
+  <h1>CoronaAPI</h1>
+  <p style="font-size: 1.3em;">The API that scales ;-)</p>
+</div>
 
 ## Our Aim 
 Our goal is to merge the power of all APIs regarding the current COVID-19 cases out there to one: **this COVID-19-API**. It is supposed to provide simplified access to verified datasets from all over the world. This enables everyone to perform further analyses, visualizations or simulations – without much effort and with a high degree of transparency. 
 And the best thing is that it can be upscaled to more data that is available on the new SARS-CoV-2 virus and its related disease!
-
-
-
 
 ## How You Can Use The API
 In our API, we combine scrapers such as [this](https://coronadatascraper.com) so that you can easily access structured real-time data without checking every data source separately. You can for example get all known cases of the COVID-19 pandemia and filter it for a specific geographical location or for certain timepoints.
@@ -20,7 +18,6 @@ As of now, the API can give you the following case outputs:
 - timepoints
 
 **// Are there any prerequistes?**
-
 
 
 

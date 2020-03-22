@@ -7,6 +7,7 @@ module.exports = {
       { text: 'Guide', link: '/guide/' },
       { text: 'Examples', link: '/examples/' },
       { text: 'API', link: 'https://corona.ndo.dev/api-docs/swagger-ui' },
+      { text: 'Data Scraper', link: 'https://coronadatascraper.com/' },
       { text: 'GitHub', link: 'https://github.com/CoronaAPI' }
     ]
   }
