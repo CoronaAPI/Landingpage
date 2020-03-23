@@ -48,3 +48,13 @@ You would like to participate and write your own scraper but don’t know how? [
 <a href="https://wirvsvirushackathon.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
   <img src="./assets/Logo_Projekt_02.png" alt="logo hackathon">
 </a>
+
+<div class="video-block">
+  <iframe 
+    max-width=100%
+    height=auto src="https://www.youtube.com/embed/_ppUJZAvle0" 
+    frameborder="0"
+    allow="encrypted-media" 
+    allowfullscreen>
+  </iframe>
+</div>

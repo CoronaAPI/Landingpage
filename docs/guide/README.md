@@ -11,6 +11,8 @@ Welcome to our 'getting started' guides. There are two primary ways we envision 
 
 To get started consuming our data you can checkout our Swagger Docs for the endpoints here: [corona.ndo.dev/api-docs](https://corona.ndo.dev/api-docs/swagger-ui)
 
+(If you want to get all the data as CSV you can checkout this page here: [Corona CSV](https://coronadatascraper.com/#data.csv))
+
 As an example, you can use the browser built-in `fetch` method to query the data:
 
 ```javascript
