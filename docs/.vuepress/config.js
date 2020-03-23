@@ -23,19 +23,15 @@ module.exports = {
     repoLabel: "Github",
     smoothScroll: true,
     editLinks: true,
-    editLinkText: "Help us improve this page!"
+    editLinkText: "Help us improve this page!",
+    footer: "testt",
+    lastUpdated: "Last Updated"
   },
+  footer: "testt",
   plugins: [
     "vuepress-plugin-element-tabs",
     "code-switcher",
-    ["vuepress-plugin-code-copy", { color: "#ccc837" }],
-    [
-      "@vuepress/last-updated",
-      {
-        dateOptions: {
-          hour12: false
-        }
-      }
-    ]
+    "@vuepress/back-to-top",
+    [("vuepress-plugin-code-copy", { color: "#ccc837" })]
   ]
 };

@@ -15,6 +15,7 @@
     "vuepress-plugin-code-switcher": "^1.0.3"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
     "vuepress": "^1.4.0",
     "vuepress-plugin-element-tabs": "^0.2.8"
   }

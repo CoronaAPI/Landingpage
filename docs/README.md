@@ -1,3 +1,8 @@
+---
+editLink: false
+lastUpdated: false
+---
+
 <div style="text-align:center">
   <img src="./assets/logo.svg" alt="logo" style="max-width: 350px">
 </div>
@@ -48,3 +53,7 @@ You would like to participate and write your own scraper but don’t know how? [
 <a href="https://wirvsvirushackathon.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
   <img src="./assets/Logo_Projekt_02.png" alt="logo hackathon">
 </a>
+
+<div style="font-size: 0.8rem; padding: 30px 100px; border-top: 1px solid #eaeaea; width: 100%; display: flex; justify-content: center">
+  <a href="/impressum">Impressum</a>&nbsp;| CoronaAPI | 2020	©
+</div>
