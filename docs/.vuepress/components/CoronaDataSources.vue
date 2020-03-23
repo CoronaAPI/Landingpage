@@ -1,29 +1,17 @@
 <template>
   <div>
-    <button class="data-btn" v-on:click="fetchCoronaData">
-      Get Data
+    <button class="data-btn" v-on:click="fetchCoronaDataSources">
+      Get sources
     </button>
     <p v-if="isFetching">fetching data...</p>
     <div v-else style="margin: 5px">
-      <div v-if="coronaData.length > 0" style="height: 300px; overflow: auto;">
+      <div v-if="coronaSources.length > 0" style="height: 300px; overflow: auto;">
         <table>
           <tr>
-            <th>country</th>
-            <th>cases</th>
-            <th>active</th>
-            <th>recovered</th>
-            <th>deaths</th>
-            <th>rating</th>
             <th>source</th>
           </tr>
-          <tr v-for="(data, index) in coronaData" :key="data.index">
-            <td>{{ data.country }}</td>
-            <td>{{ data.cases }}</td>
-            <td>{{ data.active }}</td>
-            <td>{{ data.recovered }}</td>
-            <td>{{ data.deaths }}</td>
-            <td>{{ data.rating }}</td>
-            <td>{{ data.url }}</td>
+          <tr v-for="(source, index) in coronaSources" :key="index">
+            <td>{{ source }}</td>
           </tr>
         </table>
       </div>
@@ -35,21 +23,21 @@
 const axios = require("axios");
 
 export default {
-  name: "corona-data",
+  name: "corona-data-sources",
   data() {
     return {
-      coronaData: [],
+      coronaSources: [],
       fetch: axios,
       isFetching: false
     };
   },
   methods: {
-    fetchCoronaData() {
+    fetchCoronaDataSources() {
       this.isFetching = true;
       return this.fetch
-        .get("https://corona.ndo.dev/api/daily")
+        .get("https://corona.ndo.dev/api/datasources")
         .then(response => {
-          this.$data.coronaData = response.data;
+          this.$data.coronaSources= response.data;
           this.isFetching = false;
         })
         .catch(error => {

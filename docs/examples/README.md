@@ -10,7 +10,19 @@ When you click on the button, you request the daily data.
 
 <corona-data />
 
-To implement this you can build a small [Vue](https://vuejs.org/) component. The data will be fetched with [axios](https://github.com/axios/axios) and stored locally in the component.
+If you add the query parameter "source" to the api request, you will get all data of this source.
+
+e.g -> [/api/daily?source=https://github.com/CSSEGISandData/COVID-19](https://corona.ndo.dev/api/daily?source=https://github.com/CSSEGISandData/COVID-19)
+
+## Get all the different data sources
+
+To get all the different data sources use the api endpoint you can find [here (/api/datasources).](https://corona.ndo.dev/api-docs/swagger-ui/#/CoronaAPI/get_api_datasources).
+
+When you click on the button, you request the list of all data sources.
+
+<corona-data-sources />
+
+To implement the examples shown you can build a small [Vue](https://vuejs.org/) component. The data will be fetched with [axios](https://github.com/axios/axios) and stored locally in the component.
 
 But it's up to you. Just choose your favorite tools and get the data via REST. If you click [here](https://corona.ndo.dev/api/daily), you will see the data in your browser. You can copy the data and use tools to parse it into the format you need (e.g. [json to csv](https://konklone.io/json/)).
 
@@ -20,62 +32,50 @@ But it's up to you. Just choose your favorite tools and get the data via REST. I
 ```js
 <template>
   <div>
-    <button
-      v-on:click="fetchCoronaData"
-    >
-        Click here to get COVID19 data
+    <button class="data-btn" v-on:click="fetchCoronaDataSources">
+      Get sources
     </button>
-    <p v-if="isFetching">fetching data... </P>
-    <div v-else>
-      <table v-if="coronaData.length > 0">
-        <tr>
-          <th>country</th>
-          <th>active</th>
-          <th>recovered</th>
-          <th>deaths</th>
-          <th>source</th>
-          <th>rating</th>
-        </tr>
-        <tr
-          v-for="(data, index) in coronaData"
-          :key="data.index"
-        >
-          <td>{{ data.country }}</td>
-          <td>{{ data.active }}</td>
-          <td>{{ data.recovered }}</td>
-          <td>{{ data.deaths }}</td>
-          <td>{{ data.url }}</td>
-          <td>{{ data.rating }}</td>
-        </tr>
-      </table>
+    <p v-if="isFetching">fetching data...</p>
+    <div v-else style="margin: 5px">
+      <div v-if="coronaSources.length > 0" style="height: 300px; overflow: auto;">
+        <table>
+          <tr>
+            <th>source</th>
+          </tr>
+          <tr v-for="(source, index) in coronaSources" :key="index">
+            <td>{{ source }}</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
+const axios = require("axios");
 
 export default {
-  name:"corona-data",
+  name: "corona-data-sources",
   data() {
     return {
-      coronaData: [],
+      coronaSources: [],
+      fetch: axios,
       isFetching: false
     };
   },
   methods: {
-    fetchCoronaData() {
-      this.isFetching = true
-      return axios
-        .get("https://corona.ndo.dev/api/daily")
+    fetchCoronaDataSources() {
+      this.isFetching = true;
+      return this.fetch
+        .get("https://corona.ndo.dev/api/datasources")
         .then(response => {
-          this.$data.coronaData = response.data
-          this.isFetching = false
+          this.$data.coronaSources= response.data;
+          this.isFetching = false;
         })
         .catch(error => {
-          this.isFetching = false
-          console.log(error)
-        })
+          this.isFetching = false;
+          console.log(error);
+        });
     }
   }
 };
@@ -92,7 +92,7 @@ import ReactDOM from "react-dom";
 const App = () => {
   const [data, setData] = React.useState({});
 
-  fetch("https://corona.ndo.dev/api/daily")
+  fetch("https://corona.ndo.dev/api/datasources")
     .then(data => data.json())
     .then(resp => {
       setData(resp);
