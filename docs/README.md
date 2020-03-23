@@ -64,6 +64,6 @@ You would like to participate and write your own scraper but don’t know how? [
   </iframe>
 </div>
 
-<div style="font-size: 0.8rem; padding: 30px 100px; border-top: 1px solid #eaeaea; width: 100%; display: flex; justify-content: center">
-  <a href="/impressum">Impressum</a>&nbsp;| CoronaAPI | 2020	©
+<div style="font-size: 0.9rem; font-weight: 100; padding: 30px 100px; border-top: 1px solid #eaeaea; width: 90%; display: flex; justify-content: center; position: fixed; bottom: 0; left: 0; right: 0;background-color:#fff;">
+  <a style="font-weight: 300;" href="/impressum">Impressum</a>&ensp;| &nbsp;CoronaAPI &nbsp;| &nbsp;2020	©
 </div>
