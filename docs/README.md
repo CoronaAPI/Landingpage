@@ -54,6 +54,16 @@ You would like to participate and write your own scraper but don’t know how? [
   <img src="./assets/Logo_Projekt_02.png" alt="logo hackathon">
 </a>
 
+<div class="video-block">
+  <iframe 
+    max-width=100%
+    height=auto src="https://www.youtube.com/embed/_ppUJZAvle0" 
+    frameborder="0"
+    allow="encrypted-media" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 <div style="font-size: 0.8rem; padding: 30px 100px; border-top: 1px solid #eaeaea; width: 100%; display: flex; justify-content: center">
   <a href="/impressum">Impressum</a>&nbsp;| CoronaAPI | 2020	©
 </div>
