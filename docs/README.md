@@ -16,12 +16,12 @@ lastUpdated: false
   <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/scalable.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">It scales</p>
-    <div style="width:200px; text-align: center;">The API is based on data collected via scapers. The integration of more scrapers will amplify the power of the API. </div>
+    <div style="width:200px; text-align: center;">The API is based on data collected via <a href="https://coronadatascraper.com/#home" target="_blank" rel="noopener noreferrer" class="nav-link external">scapers</a>. The integration of more scrapers will amplify the power of the API. </div>
   </div>
   <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/open_source.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">Open Source</p>
-    <div style="width:200px; text-align: center;"> Both, the scraper collection and the API are open source and everyone is welcome to contribute. </div>
+    <div style="width:200px; text-align: center;"> Both, the scraper collection and the API are <a href="https://github.com/CoronaAPI" target="_blank" rel="noopener noreferrer" class="nav-link external">open source</a> and everyone is welcome to contribute. </div>
   </div>
 </div>
 
