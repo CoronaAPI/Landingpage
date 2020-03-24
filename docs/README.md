@@ -7,18 +7,18 @@ lastUpdated: false
   <img src="./assets/logo.svg" alt="logo" style="max-width: 350px">
 </div>
 
-<div style="display:flex; margin-top:125px; margin-bottom:50px; flex-wrap: wrap; justify-content: space-between;">
-  <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
+<div style="display:flex; margin-top:125px; margin-bottom:10px; flex-wrap: wrap; justify-content: center;">
+  <div style="margin: 0px 20px 50px 20px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/easy.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">Easy To Use</p>
     <div style="width:200px; text-align: center;"> Grab your favourite tools and consume our well defined <a href="https://corona.ndo.dev/api-docs/swagger-ui/" target="_blank" rel="noopener noreferrer" class="nav-link external">API</a>. </div>
   </div>
-  <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
+  <div style="margin: 0px 20px 50px 20px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/scalable.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">It scales</p>
     <div style="width:200px; text-align: center;">The API is based on data collected via <a href="https://coronadatascraper.com/#home" target="_blank" rel="noopener noreferrer" class="nav-link external">scapers</a>. The integration of more scrapers will amplify the power of the API. </div>
   </div>
-  <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center;">
+  <div style="margin: 0px 20px 50px 20px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/open_source.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">Open Source</p>
     <div style="width:200px; text-align: center;"> Both, the scraper collection and the API are <a href="https://github.com/CoronaAPI" target="_blank" rel="noopener noreferrer" class="nav-link external">open source</a> and everyone is welcome to contribute. </div>
