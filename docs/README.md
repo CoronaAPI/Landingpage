@@ -34,11 +34,7 @@ The best thing is that it can be scaled up to handle new datasources that may be
 
 Our API is based on the [Corona Data Scraper](https://coronadatascraper.com/#home). This wonderful open-source project allows everyone to implement scrapers which gather COVID-19 related data. The Corona-API then provides a well-defined and easy to use gateway to this data. Using the Corona-API you can access structured up to date data without checking every scraper or data source separately. We will execute the scraper for you daily, save the results long-term, and serve them via our endpoints. For example, you can get all known cases of the COVID-19 pandemic and filter it for specific geographic locations or for certain timepoints.
 
-Currently, the API can be filtered on the following variables:
-
-- Country
-- Datasource name / URL
-- Timespans
+Check out the [example](/examples/) to see what the API can provide for you.
 
 Your best bet is to look at our [Swagger documentation](https://corona.ndo.dev/api-docs/swagger-ui/) to get more information on to how to use it.
 

@@ -24,6 +24,16 @@ When you click on the button, you request the list of all data sources.
 
 To implement the examples shown you can build a small [Vue](https://vuejs.org/) component. The data will be fetched with [axios](https://github.com/axios/axios) and stored locally in the component.
 
+## Get API metadata
+
+To get the metadata use the api endpoint you can find [here (/meta).](https://corona.ndo.dev/api-docs/swagger-ui/#/CoronaAPI/get_meta).
+
+When you click on the button, you request the metadata.
+
+<corona-meta-data />
+
+To implement the examples shown you can build a small [Vue](https://vuejs.org/) component. The data will be fetched with [axios](https://github.com/axios/axios) and stored locally in the component.
+
 But it's up to you. Just choose your favorite tools and get the data via REST. If you click [here](https://corona.ndo.dev/api/daily), you will see the data in your browser. You can copy the data and use tools to parse it into the format you need (e.g. [json to csv](https://konklone.io/json/)).
 
 <CodeSwitcher :languages="{vue:'Vue',react:'React'}">
