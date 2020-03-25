@@ -9,19 +9,23 @@
         <table>
           <tr>
             <th>country</th>
+            <th>state</th>
             <th>cases</th>
             <th>active</th>
             <th>recovered</th>
             <th>deaths</th>
+            <th>population</th>
             <th>rating</th>
             <th>source</th>
           </tr>
           <tr v-for="(data, index) in coronaData" :key="data.index">
             <td>{{ data.country }}</td>
+            <td>{{ data.state }}</td>
             <td>{{ data.cases }}</td>
             <td>{{ data.active }}</td>
             <td>{{ data.recovered }}</td>
             <td>{{ data.deaths }}</td>
+            <td>{{ data.population }}</td>
             <td>{{ data.rating }}</td>
             <td>{{ data.url }}</td>
           </tr>
@@ -49,7 +53,7 @@ export default {
       return this.fetch
         .get("https://corona.ndo.dev/api/daily")
         .then(response => {
-          this.$data.coronaData = response.data;
+          this.$data.coronaData = response.data.filter(d => d.cases >= 0).sort((a, b) => b.cases - a.cases);
           this.isFetching = false;
         })
         .catch(error => {
