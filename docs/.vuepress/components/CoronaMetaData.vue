@@ -23,6 +23,10 @@
             <td>bug</td>
             <td>{{ metaData.bug }}</td>
           </tr>
+          <tr>
+            <td>remember</td>
+            <td>{{ metaData.remember }}</td>
+          </tr>
         </table>
       </div>
     </div>

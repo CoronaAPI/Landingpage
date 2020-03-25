@@ -35,7 +35,7 @@ The best thing is that it can be scaled up to handle new datasources that may be
 
 Our API is based on the [Corona Data Scraper](https://coronadatascraper.com/#home). This wonderful open-source project allows everyone to implement scrapers which gather COVID-19 related data. The Corona-API then provides a well-defined and easy to use gateway to this data. Using the Corona-API you can access structured up to date data without checking every scraper or data source separately. We will execute the scraper for you daily, save the results long-term, and serve them via our endpoints. For example, you can get all known cases of the COVID-19 pandemic and filter it for specific geographic locations or for certain timepoints.
 
-Check out the [example](/examples/) to see what the API can provide for you.
+Check out the [example section](/examples/) to see what the API can provide for you.
 
 Your best bet is to look at our [Swagger documentation](https://corona.ndo.dev/api-docs/swagger-ui/) to get more information on to how to use it.
 
@@ -44,6 +44,8 @@ Your best bet is to look at our [Swagger documentation](https://corona.ndo.dev/a
 You already have your own scraper and want to share it? Yay! We are open source and we’d be happy to include your datasets. It would be great if we team up to extend the API to more detailed data on regional occurrences in cities or rural municipalities for example.
 
 You would like to participate and write your own scraper but don’t know how? [Find out!](https://github.com/lazd/coronadatascraper/#contributing)
+
+Join our [Slack team](https://join.slack.com/t/corona-api/shared_invite/zt-d3q97q52-2~0Jh7YV1WHVDY~TpENVtg) :love_letter:
 
 ### Developed during #WirvsVirus Hackathon
 
