@@ -5,6 +5,7 @@ lastUpdated: false
 
 <div style="text-align:center">
   <img src="./assets/logo.svg" alt="logo" style="max-width: 350px">
+  <h1>CoronaAPI</h1>
 </div>
 
 <div style="display:flex; margin-top:125px; margin-bottom:10px; flex-wrap: wrap; justify-content: center;">
