@@ -8,6 +8,8 @@
 
 Based on [VuePress](https://vuepress.vuejs.org/).
 
+#### 💌 Join our [Slack](https://join.slack.com/t/corona-api/shared_invite/zt-d3q97q52-2~0Jh7YV1WHVDY~TpENVtg)
+
 ## 🚀 Getting Started
 
 1. Clone the repo - `git clone https://github.com/coronaapi/landingpage`
@@ -30,6 +32,6 @@ Based on [VuePress](https://vuepress.vuejs.org/).
   </tr>
 </table>
 
-## License
+## 📝 License
 
 MIT
