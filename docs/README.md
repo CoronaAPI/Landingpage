@@ -17,7 +17,7 @@ lastUpdated: false
   <div style="margin: 0px 20px 50px 20px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/scalable.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">It scales</p>
-    <div style="width:200px; text-align: center;">The API is based on data collected via <a href="https://coronadatascraper.com/#home" target="_blank" rel="noopener noreferrer" class="nav-link external">scapers</a>. The integration of more scrapers will amplify the power of the API. </div>
+    <div style="width:200px; text-align: center;">The API is based on data collected via <a href="https://coronadatascraper.com/#home" target="_blank" rel="noopener noreferrer" class="nav-link external">scrapers</a>. The integration of more scrapers will amplify the power of the API. </div>
   </div>
   <div style="margin: 0px 20px 50px 20px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/open_source.svg" alt="logo" height="125">
