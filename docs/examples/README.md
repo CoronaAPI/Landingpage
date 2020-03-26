@@ -4,7 +4,7 @@ This section helps you with examples so that you can easily obtain and use the r
 
 ## Get all of today's data
 
-To get all of today's data use the api endpoint you can find [here (/api/daily).](https://corona.ndo.dev/api-docs/swagger-ui/#/default/get_api_daily.).
+To get all of today's data use the api endpoint you can find [here (/v1/daily).](https://corona.ndo.dev/api-docs/#/Daily/get_v1_daily.).
 
 When you click on the button, you request the daily data.
 
@@ -16,7 +16,7 @@ e.g -> [/api/daily?source=https://github.com/CSSEGISandData/COVID-19](https://co
 
 ## Get all the different data sources
 
-To get all the different data sources use the api endpoint you can find [here (/api/datasources).](https://corona.ndo.dev/api-docs/swagger-ui/#/CoronaAPI/get_api_datasources).
+To get all the different data sources use the api endpoint you can find [here (/v1/datasources).](https://corona.ndo.dev/api-docs/#/Meta/get_v1_datasources).
 
 When you click on the button, you request the list of all data sources.
 
@@ -26,7 +26,7 @@ To implement the examples shown you can build a small [Vue](https://vuejs.org/) 
 
 ## Get API metadata
 
-To get the metadata use the api endpoint you can find [here (/meta).](https://corona.ndo.dev/api-docs/swagger-ui/#/CoronaAPI/get_meta).
+To get the metadata use the api endpoint you can find [here (/meta).](https://corona.ndo.dev/api-docs/#/Meta/get_meta).
 
 When you click on the button, you request the metadata.
 
@@ -34,7 +34,7 @@ When you click on the button, you request the metadata.
 
 To implement the examples shown you can build a small [Vue](https://vuejs.org/) component. The data will be fetched with [axios](https://github.com/axios/axios) and stored locally in the component.
 
-But it's up to you. Just choose your favorite tools and get the data via REST. If you click [here](https://corona.ndo.dev/api/daily), you will see the data in your browser. You can copy the data and use tools to parse it into the format you need (e.g. [json to csv](https://konklone.io/json/)).
+But it's up to you. Just choose your favorite tools and get the data via REST. If you click [here](https://corona.ndo.dev/v1/daily), you will see the data in your browser. You can copy the data and use tools to parse it into the format you need (e.g. [json to csv](https://konklone.io/json/)).
 
 <CodeSwitcher :languages="{vue:'Vue',react:'React'}">
 <template v-slot:vue>
@@ -77,7 +77,7 @@ export default {
     fetchCoronaDataSources() {
       this.isFetching = true;
       return this.fetch
-        .get("https://corona.ndo.dev/api/datasources")
+        .get("https://corona.ndo.dev/v1/datasources")
         .then(response => {
           this.$data.coronaSources= response.data;
           this.isFetching = false;
@@ -102,7 +102,7 @@ import ReactDOM from "react-dom";
 const App = () => {
   const [data, setData] = React.useState({});
 
-  fetch("https://corona.ndo.dev/api/datasources")
+  fetch("https://corona.ndo.dev/v1/datasources")
     .then(data => data.json())
     .then(resp => {
       setData(resp);

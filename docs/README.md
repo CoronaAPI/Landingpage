@@ -12,7 +12,7 @@ lastUpdated: false
   <div style="margin: 0px 20px 50px 20px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/easy.svg" alt="logo" height="125">
     <p style="font-size: 1.3em;">Easy To Use</p>
-    <div style="width:200px; text-align: center;"> Grab your favourite tools and consume our well defined <a href="https://corona.ndo.dev/api-docs/swagger-ui/" target="_blank" rel="noopener noreferrer" class="nav-link external">API</a>. </div>
+    <div style="width:200px; text-align: center;"> Grab your favourite tools and consume our well defined <a href="https://corona.ndo.dev/api-docs/" target="_blank" rel="noopener noreferrer" class="nav-link external">API</a>. </div>
   </div>
   <div style="margin: 0px 20px 50px 20px; display: flex; flex-direction: column; align-items: center;">
     <img src="./assets/scalable.svg" alt="logo" height="125">
@@ -37,7 +37,7 @@ Our API is based on the [Corona Data Scraper](https://coronadatascraper.com/#hom
 
 Check out the [example section](/examples/) to see what the API can provide for you.
 
-Your best bet is to look at our [Swagger documentation](https://corona.ndo.dev/api-docs/swagger-ui/) to get more information on to how to use it.
+Your best bet is to look at our [Swagger documentation](https://corona.ndo.dev/api-docs) to get more information on to how to use it.
 
 ## How You Can Contribute
 
