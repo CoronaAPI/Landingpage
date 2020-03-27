@@ -89,6 +89,11 @@ module.exports = {
         target: "_blank"
       },
       {
+        text: "Status",
+        link: "https://status.corona-api.org",
+        target: "_blank"
+      },
+      {
         text: "Data Scraper",
         link: "https://coronadatascraper.com/",
         target: "_blank"
