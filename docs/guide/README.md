@@ -77,3 +77,5 @@ For more information, please visit: [https://github.com/lazd/coronadatascraper#c
 
 :::
 ::::
+
+<headway />

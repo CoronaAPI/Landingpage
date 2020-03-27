@@ -18,7 +18,7 @@ Der Hackathon, aus dem diese Seite hervorgegangen ist, ist der von der Bundesreg
 
 **Email Adresse**: [coronapi.wirvsvirus@gmail.com](mailto:coronapi.wirvsvirus@gmail.com)  
 **Twitter**: [https://twitter.com/coronapi1](https://twitter.com/coronapi1)  
-**Homepage**: [https://corona.ndo.dev](https://corona.ndo.dev)
+**Homepage**: [https://corona.ndo.dev](https://corona-api.org)
 
 ## Social Media und andere Onlinepräsenzen
 

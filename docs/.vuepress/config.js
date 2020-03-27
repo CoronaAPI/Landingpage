@@ -58,8 +58,15 @@ module.exports = {
     ],
     ["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     [
-      "link",
-      { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico" }
+      "script",
+      {
+        type: "text/javascript",
+        src: "https://cdn.headwayapp.co/widget.js"
+      }
+    ],
+    [
+      ("link",
+      { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico" })
     ],
     ["meta", { name: "msapplication-TileColor", content: "#3a0839" }],
     [

@@ -66,3 +66,5 @@ Join our [Slack team](https://join.slack.com/t/corona-api/shared_invite/zt-d3q97
 <div style="font-size: 0.9rem; font-weight: 100; padding: 30px 100px; border-top: 1px solid #eaeaea; width: 90%; display: flex; justify-content: center; position: fixed; bottom: 0; left: 0; right: 0;background-color:#fff;">
   <a style="font-weight: 300;" href="/impressum">Impressum</a>&ensp;| &nbsp;CoronaAPI &nbsp;| &nbsp;2020	©
 </div>
+
+<headway />

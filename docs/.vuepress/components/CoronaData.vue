@@ -53,7 +53,9 @@ export default {
       return this.fetch
         .get("https://corona.ndo.dev/api/daily")
         .then(response => {
-          this.$data.coronaData = response.data.filter(d => d.cases >= 0).sort((a, b) => b.cases - a.cases);
+          this.$data.coronaData = response.data
+            .filter(d => d.cases >= 0)
+            .sort((a, b) => b.cases - a.cases);
           this.isFetching = false;
         })
         .catch(error => {
