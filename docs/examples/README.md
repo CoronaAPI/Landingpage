@@ -22,8 +22,6 @@ When you click on the button, you request the list of all data sources.
 
 <corona-data-sources />
 
-To implement the examples shown you can build a small [Vue](https://vuejs.org/) component. The data will be fetched with [axios](https://github.com/axios/axios) and stored locally in the component.
-
 ## Get API metadata
 
 To get the metadata use the api endpoint you can find [here (/meta).](https://data.corona-api.org/api-docs/#/Meta/get_meta).

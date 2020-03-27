@@ -9,7 +9,7 @@ Welcome to our 'getting started' guides. There are two primary ways we envision 
 :::: tabs stretch
 ::: tab I want to consume data
 
-To get started consuming our data you can checkout our Swagger Docs for the endpoints here: [corona.ndo.dev/api-docs](https://data.corona-api.org/api-docs)
+To get started consuming our data you can checkout our Swagger Docs for the endpoints here: [data.corona-api.org](https://data.corona-api.org/api-docs)
 
 (If you want to get all the data as CSV you can checkout this page here: [Corona CSV](https://coronadatascraper.com/#data.csv))
 
