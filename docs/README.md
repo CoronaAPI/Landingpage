@@ -28,12 +28,12 @@ lastUpdated: false
 
 ## Our Aim
 
-Our goal is to merge the power of all APIs regarding the current COVID-19 cases out there to one: **this Corona-API**. It is supposed to provide simplified access to verified datasets from all over the world. This enables everyone to perform further analyses, visualizations or simulations – without much effort and with a high degree of transparency. With this new consolidated API, we want to support developers, scientists, and journalists who in turn can communicate their findings to the public and decision makers.
+Our goal is to merge the power of all APIs regarding the current COVID-19 cases out there to one: **this CoronaAPI**. It is supposed to provide simplified access to verified datasets from all over the world. This enables everyone to perform further analyses, visualizations or simulations – without much effort and with a high degree of transparency. With this new consolidated API, we want to support developers, scientists, and journalists who in turn can communicate their findings to the public and decision makers.
 The best thing is that it can be scaled up to handle new datasources that may become available in the future!
 
 ## How You Can Use The API
 
-Our API is based on the [Corona Data Scraper](https://coronadatascraper.com/#home). This wonderful open-source project allows everyone to implement scrapers which gather COVID-19 related data. The Corona-API then provides a well-defined and easy to use gateway to this data. Using the Corona-API you can access structured up to date data without checking every scraper or data source separately. We will execute the scraper for you daily, save the results long-term, and serve them via our endpoints. For example, you can get all known cases of the COVID-19 pandemic and filter it for specific geographic locations or for certain timepoints.
+Our API is based on the [Corona Data Scraper](https://coronadatascraper.com/#home). This wonderful open-source project allows everyone to implement scrapers which gather COVID-19 related data. The CoronaAPI then provides a well-defined and easy to use gateway to this data. Using the CoronaAPI you can access structured up to date data without checking every scraper or data source separately. We will execute the scraper for you daily, save the results long-term, and serve them via our endpoints. For example, you can get all known cases of the COVID-19 pandemic and filter it for specific geographic locations or for certain timepoints.
 
 Check out the [example section](/examples/) to see what the API can provide for you.
 
