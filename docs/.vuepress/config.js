@@ -85,7 +85,7 @@ module.exports = {
       { text: "Examples", link: "/examples/" },
       {
         text: "API",
-        link: "https://corona.ndo.dev/api-docs/swagger-ui",
+        link: "https://data.corona-api.org/api-docs",
         target: "_blank"
       },
       {
