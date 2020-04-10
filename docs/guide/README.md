@@ -16,7 +16,7 @@ To get started consuming our data you can checkout our Swagger Docs for the endp
 As an example, you can use the browser built-in `fetch` method to query the data:
 
 ```javascript
-fetch('https://corona.ndo.dev/v1/daily)
+fetch('https://data.corona-api.org/v1/daily)
   .then(data => data.json())
   .then(resp => {
     console.log('Result: ', resp)

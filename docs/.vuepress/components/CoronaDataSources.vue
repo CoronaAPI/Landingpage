@@ -35,7 +35,7 @@ export default {
     fetchCoronaDataSources() {
       this.isFetching = true;
       return this.fetch
-        .get("https://corona.ndo.dev/api/datasources")
+        .get("https://data.corona-api.org/api/datasources")
         .then(response => {
           this.$data.coronaSources= response.data;
           this.isFetching = false;

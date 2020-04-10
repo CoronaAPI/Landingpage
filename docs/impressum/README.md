@@ -2,13 +2,13 @@
 
 ## Wichtige Vorbemerkung
 
-Diese Webseite (corona.ndo.dev) ist erst vor kurzem, am 22.03.2020, veröffentlicht worden. Wir, die Betreiber dieser Seite, möchten Sie mit diesem Impressum darüber informieren, wer hinter diesem Angebot steht.
+Diese Webseite (https://corona-api.org) ist erst vor kurzem, am 22.03.2020, veröffentlicht worden. Wir, die Betreiber dieser Seite, möchten Sie mit diesem Impressum darüber informieren, wer hinter diesem Angebot steht.
 
 Diese Seite wurde von einem Team veröffentlicht, das sich in einem sogenannten "Hackathon" gebildet hat. Wikipedia erklärt einen Hackathon wie folgt:
 
 "Ein Hackathon (Wortschöpfung aus „Hack“ und „Marathon“) ist eine kollaborative Soft- und Hardwareentwicklungs­veranstaltung. Alternative Bezeichnungen sind „Hack Day“, „Hackfest“ und „codefest“. Ziel eines Hackathons ist es, innerhalb der Dauer dieser Veranstaltung gemeinsam nützliche, kreative oder unterhaltsame Softwareprodukte herzustellen oder, allgemeiner, Lösungen für gegebene Probleme zu finden." (https://de.wikipedia.org/wiki/Hackathon)
 
-Wir, das Team hinter `corona.ndo.dev` haben uns mit unserem Beitrag vorgenommen: Saemtliche Datenquellen as dem Internet zusammenzuführen und stets aktuell zu halten, um die Bevölkerung zu informieren oder Entscheidungsträgern eine evidenzbasierte Datengrundlage zu geben.
+Wir, das Team hinter `https://corona-api.org` haben uns mit unserem Beitrag vorgenommen: Saemtliche Datenquellen as dem Internet zusammenzuführen und stets aktuell zu halten, um die Bevölkerung zu informieren oder Entscheidungsträgern eine evidenzbasierte Datengrundlage zu geben.
 
 Der Hackathon, aus dem diese Seite hervorgegangen ist, ist der von der Bundesregierung veranstaltete Hackathon #WirVsVirus, über den Sie sich unter [http://wirvsvirushackathon.org/](http://wirvsvirushackathon.org/) informieren können.
 
@@ -18,7 +18,7 @@ Der Hackathon, aus dem diese Seite hervorgegangen ist, ist der von der Bundesreg
 
 **Email Adresse**: [coronapi.wirvsvirus@gmail.com](mailto:coronapi.wirvsvirus@gmail.com)  
 **Twitter**: [https://twitter.com/coronapi1](https://twitter.com/coronapi1)  
-**Homepage**: [https://corona.ndo.dev](https://corona-api.org)
+**Homepage**: [https://corona-api.org](https://corona-api.org)
 
 ## Social Media und andere Onlinepräsenzen
 

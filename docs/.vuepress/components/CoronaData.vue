@@ -51,7 +51,7 @@ export default {
     fetchCoronaData() {
       this.isFetching = true;
       return this.fetch
-        .get("https://corona.ndo.dev/api/daily")
+        .get("https://data.corona-api.org/api/daily")
         .then(response => {
           this.$data.coronaData = response.data
             .filter(d => d.cases >= 0)

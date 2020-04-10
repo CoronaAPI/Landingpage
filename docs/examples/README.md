@@ -16,7 +16,7 @@ e.g -> [/v1/daily?source=https://github.com/CSSEGISandData/COVID-19](https://dat
 
 ## Get all the different data sources
 
-To get all the different data sources use the api endpoint you can find [here (/v1/datasources).](https://corona.ndo.dev/api-docs/#/Meta/get_v1_datasources).
+To get all the different data sources use the api endpoint you can find [here (/v1/datasources).](https://data.corona-api.org/api-docs/#/Meta/get_v1_datasources).
 
 When you click on the button, you request the list of all data sources.
 
