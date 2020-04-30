@@ -54,11 +54,11 @@ Join our [Slack team](https://join.slack.com/t/corona-api/shared_invite/zt-d3q97
 </a>
 
 <div class="video-block">
-  <iframe 
+  <iframe
     max-width=100%
     height=auto src="https://www.youtube.com/embed/_ppUJZAvle0" 
     frameborder="0"
-    allow="encrypted-media" 
+    allow="encrypted-media"
     allowfullscreen>
   </iframe>
 </div>
