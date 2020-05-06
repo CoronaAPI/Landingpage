@@ -85,12 +85,12 @@ module.exports = {
       { text: "Examples", link: "/examples/" },
       {
         text: "API",
-        link: "https://data.corona-api.org/api-docs",
+        link: "https://docs.corona-api.org/",
         target: "_blank"
       },
       {
-        text: "GraphQL (pre-alpha)",
-        link: "https://554o1tyyx8.execute-api.eu-central-1.amazonaws.com/dev/graphql",
+        text: "GraphQL",
+        link: "https://data.corona-api.org/v1/graphql",
         target: "_blank"
       },
       {
