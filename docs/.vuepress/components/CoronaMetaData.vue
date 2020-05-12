@@ -49,7 +49,7 @@ export default {
     fetchCoronaMetaData() {
       this.isFetching = true;
       return this.fetch
-        .get("https://data.corona-api.org/meta")
+        .get("https://data.corona-api.org/api/meta")
         .then(response => {
           this.$data.metaData= response.data;
           this.isFetching = false;
